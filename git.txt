@@ -1,0 +1,37 @@
+…or create a new repository on the command line
+
+echo "# Quote" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M Java-program
+git remote add origin https://github.com/stellarboymihir/Quote.git
+git push -u origin Java-program
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/stellarboymihir/Quote.git
+git branch -M Java-program
+git push -u origin Java-progr
+
+
+git remote add origin 
+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
+
+
+The default branch has been renamed!
+Java-program is now named master
+
+If you have a local clone, you can update it by running the following commands.
+
+git branch -m Java-program master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+
+-------------------------------------------------------------------------
+Imp Cmd for starting XAMPP
+
+sudo /opt/lampp/lampp start
+
+sudo /opt/lampp/lampp stop
